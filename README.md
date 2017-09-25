@@ -8,9 +8,9 @@
 
 ## 1. WebSocket
 
-    - WebSocket은 사용자의 브라우저와 서버 사이의 동적인 양방향 연결 채널을 구성하는 HTML5 프로토콜이다. 
+    WebSocket은 사용자의 브라우저와 서버 사이의 동적인 양방향 연결 채널을 구성하는 HTML5 프로토콜이다.
     
-    - WebSocket API를 통해 서버로 메시지를 보내고 요청 없이 응답을 받아오는 것이 가능하다.
+    WebSocket API를 통해 서버로 메시지를 보내고 요청 없이 응답을 받아오는 것이 가능하다.
 
     HTTP는 클라이언트에 의해 초기화되기 때문에 서버가 변경사항을 클라이언트에게 알릴 수 있는 방법이 없다.
     
@@ -62,14 +62,14 @@
     
     package.json의 내용은 아래와 같다. Node.js 6.4.0를 사용하였다.
 
-        {
-        "name": "socketio-chat",
-        "version": "1.0.0",
-        "scripts": {
+         {
+            "name": "socketio-chat",
+            "version": "1.0.0",
+            "scripts": {
             "start": "node app"
-        },
-        "dependencies": {
-            "express": "4.14.0",
-            "socket.io": "1.4.8"
-        }
+            },
+             "dependencies": {
+             "express": "4.14.0",
+             "socket.io": "1.4.8"
+            }
         }
