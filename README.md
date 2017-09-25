@@ -25,10 +25,12 @@
     루트 디렉터리에 index.html을 작성한다.
 
     다음은 ws 모듈을 사용하여 Node.js 기반 서버를 구현한다.
+        
+        $ mkdir native-websocket && cd native-websocket
 
-            > $ mkdir native-websocket && cd native-websocket
-            > $ npm init --yes
-            > $ npm install ws --save
+        $ npm init --yes
+        
+        $ npm install ws --save
     
     루트 디렉터리에 server.js을 작성한다.
 
@@ -52,20 +54,22 @@
 
     프로젝트 루트 디렉터리를 생성하고 Socket.io를 인스톨한다.
 
-        > $ mkdir socketio-chat && cd socketio-chat
-        > $ npm init --yes
-        > $ npm install --save --save-exact socket.io express
+        $ mkdir socketio-chat && cd socketio-chat
+
+        $ npm init --yes
+
+        $ npm install --save --save-exact socket.io express
     
     package.json의 내용은 아래와 같다. Node.js 6.4.0를 사용하였다.
 
-        > {
-        > "name": "socketio-chat",
-        > "version": "1.0.0",
-        > "scripts": {
-        >     "start": "node app"
-        > },
-        > "dependencies": {
-        >     "express": "4.14.0",
-        >     "socket.io": "1.4.8"
-        > }
-        > }
+        {
+        "name": "socketio-chat",
+        "version": "1.0.0",
+        "scripts": {
+            "start": "node app"
+        },
+        "dependencies": {
+            "express": "4.14.0",
+            "socket.io": "1.4.8"
+        }
+        }
