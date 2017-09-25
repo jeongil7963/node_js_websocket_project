@@ -26,9 +26,9 @@
 
     다음은 ws 모듈을 사용하여 Node.js 기반 서버를 구현한다.
 
-        > $ mkdir native-websocket && cd native-websocket
-        > $ npm init --yes
-        > $ npm install ws --save
+            > $ mkdir native-websocket && cd native-websocket
+            > $ npm init --yes
+            > $ npm install ws --save
     
     루트 디렉터리에 server.js을 작성한다.
 
